@@ -9,7 +9,7 @@ import json
 clients_lock = threading.Lock()
 connected = 0
 
-clients = {}e
+clients = {}
 
 def connectionLoop(sock):
    while True:
